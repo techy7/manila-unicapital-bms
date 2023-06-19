@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.header .profile-dropdown-toggle {
+    border-radius: 0;
+    border: none;
+    color: #fff;
+    transition: none;
+}
+
+.header .profile-dropdown-toggle::after {
+    display: none;
+}
+
+.header .profile-dropdown-toggle:hover {
+    box-shadow: none;
+}
+
+.horizontal-app-menu .menu-bar ul li .sub-menu {
+    left: 70%;
+}
+
+.breadcrumb-item+.breadcrumb-item::before { 
+    padding-right: 0;
+}
+
+.widget-customers::after {
+    background-image: url("../images/customers.png");
+}
+
+.fs-100 {
+    font-size: 100px;
+}
+
+.img-90 {
+    width: 90%;
+}
