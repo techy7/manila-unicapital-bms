@@ -25,7 +25,9 @@
                                 <p><?php echo lang('Profile.profileLabels.email'); ?>: <?php echo mailto($user_data->email); ?></p>
                             </div>
                             <div class="card-footer text-right">
-                                <a href="<?php echo base_url('profile/edit'); ?>" class="btn btn-primary btn-cons pull-right"><span><?php echo lang('Profile.editProfile'); ?></span></a>
+                                <a href="<?php echo base_url('dashboard'); ?>" class="btn btn-default btn-icon-left m-r-5">
+                                    <i class="pg-icon md-18">arrow_left</i><span><?php echo lang('Default.back'); ?></span>
+                                </a>
                             </div>
                         </div>
                     </div>

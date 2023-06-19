@@ -67,7 +67,7 @@ abstract class BaseController extends Controller
         if (isset($this->session->isLoggedIn)) {
             $this->admin_user_data = model('UserModel')->find($this->session->user_id);
 
-            $this->view_data['session_data'] = [
+            $this->view_data['session_data'] = (object) [
                 'user_id' => $this->session->user_id,
                 'employee_id' => $this->session->employee_id,
                 'name' => $this->admin_user_data->name,

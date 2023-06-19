@@ -96,7 +96,8 @@ define('EVENT_PRIORITY_HIGH', 10);
 /**
  * Project Constants
  */
-define('SITE_NAME', 'Manila Unicapital');
-define('SITE_VERSION', 'v01.01 202305');
+define('SITE_NAME', 'BMS Portal');
+define('SITE_AUTHOR', 'Techy7 Digital');
+define('SITE_VERSION', 'v01.01 202306');
 
 define('PERMISSION_LIST', []);
